@@ -16,5 +16,5 @@ If you are ready with your code, and comments please upload to any online reposi
 
 ## Answers
 
-The solution has programmed in both Python and Javascript programming in the following file repectively.
-The 15th element of the sequence is 1220 which is printed in both programs using both loop and recursive program.
+ - The solution has programmed in both Python and Javascript programming in the following file repectively.
+ - The 15th element of the sequence is 1220 which is printed in both programs using both loop and recursive program.
