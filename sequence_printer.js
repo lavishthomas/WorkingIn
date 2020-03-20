@@ -12,16 +12,14 @@ const sequence_element_printer = async (n) => {
 }
 
 sequence_element_printer(n).then(number => {
-    console.log('The ', n, 'th number of the sequence is : ', number)
+    console.log('The ', n, 'th number of the sequence using loop method is : ', number)
 })
 
-var recursive_element_printer = function (n, current_element = 2, previous_number = 0) {
-    n--
-    console.log(n)
-    if (n > 0) {
+const recursive_element_printer = function (n, current_element = 2, previous_number = 0) {    
+    if (--n > 0) {
         current_element = recursive_element_printer(n, current_element + previous_number, current_element);
     }
     return current_element
 };
-console.log('The ', n, 'th number of the sequence is : ', recursive_element_printer(n))
+console.log('The ', n, 'th number of the sequence using recursive function is : ', recursive_element_printer(n))
 
