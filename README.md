@@ -42,10 +42,11 @@ The time complexity of the function is O(n).
 The space complexity of the function is O(1).
 Only one element has to be kept in memory for the exection. 
 Practically two variables but in theory it is represented usally as O(1).
------------------------------------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------------------------------
 recursive_element_printer(int: n, int: current_element (optional),int: previous_number (optional) )
------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- 
+
 This function takes one mandatory input and two optional inputs: 
     1) The position of the element sequence to be printed.
     2) Current element in the sequence
