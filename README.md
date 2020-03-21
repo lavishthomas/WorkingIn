@@ -30,17 +30,18 @@ and recursive program recursive_element_printer
 ### Function Details
 -----------------------------------------------------------------------------------------------------
 sequence_element_printer(int: n)
------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------- 
+
 This function takes one input: the position of the element sequence to be printed.
 
-The function uses a for loop which iterates for n times to calculate the next 
-element based on previous two elements.
+The function uses a for loop which iterates for n times to calculate the 
+next element based on previous two elements.
 
 The time complexity of the function is O(n).
 
 The space complexity of the function is O(1).
 Only one element has to be kept in memory for the exection. 
-Practically two variables but in theory it is represented usally as O(1)
+Practically two variables but in theory it is represented usally as O(1).
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
 recursive_element_printer(int: n, int: current_element (optional),int: previous_number (optional) )
