@@ -25,8 +25,9 @@ If you are ready with your code, and comments please upload to any online reposi
 
 Both languages implement identical solutions in both languages. <br>
 
-Two functions are provided which is implements the solution using foor loop (sequence_element_printer) 
-and recursive program recursive_element_printer
+Two functions are provided which is implements the solution using <br>
+for loop (sequence_element_printer) 
+and recursive programming (recursive_element_printer)
 ### Function Details
 -----------------------------------------------------------------------------------------------------
 sequence_element_printer(int: n)
@@ -64,5 +65,5 @@ variable current_element is kept in memory for each call till the recursive call
 -----------------------------------------------------------------------------------------------------
 
 ## Output of the programs :
-The  15 th number of the sequence using recursive function is :  122 0 <br>
+The  15 th number of the sequence using recursive function is :  1220 <br>
 The  15 th number of the sequence using loop method is :  1220 <br>
