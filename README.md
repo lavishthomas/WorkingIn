@@ -1,6 +1,6 @@
 # WorkingIn
 
-## Requirement given by **Suzanne** via Mail
+## Requirement
 
 Please create a public repository, and write a solution for the following small coding challenge, using clean code principles, and preferable C++, Python, or Javascript as a programming language:
 
